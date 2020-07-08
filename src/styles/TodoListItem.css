@@ -1,0 +1,29 @@
+.todoItem {
+  display: flex;
+  color:#666;
+  background: #fff;
+  margin: 1em 0;
+  padding: 1em;
+  justify-content: space-between;
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+.checkbox {
+  width: 1.5em;
+  height: 1.5em;
+  margin-left: 0;
+}
+
+.deleteBtn {
+  padding-left: .7em;
+  max-height: 2.1em;
+}
+
+label {
+  width: 77%;
+  padding-top: .27em;
+  word-wrap: break-word;
+}

@@ -1,0 +1,122 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background: #f4f4f4;
+}
+
+.app {
+  position: absolute;
+  width: 40%;
+  left: 30%;
+  top: 100px;
+  min-width: 351px;
+}
+
+@media only screen and (max-width: 877px) {
+  .app {
+    left: 29%;
+  }
+}
+
+@media only screen and (max-width: 827px) {
+  .app {
+    left: 27%;
+  }
+}
+
+@media only screen and (max-width: 777px) {
+  .app {
+    left: 25%;
+  }
+}
+
+@media only screen and (max-width: 727px) {
+  .app {
+    left: 23%;
+  }
+}
+
+@media only screen and (max-width: 677px) {
+  .app {
+    left: 21%;
+  }
+}
+
+@media only screen and (max-width: 627px) {
+  .app {
+    left: 19%;
+  }
+}
+
+@media only screen and (max-width: 577px) {
+  .app {
+    left: 17%;
+  }
+}
+
+@media only screen and (max-width: 527px) {
+  .app {
+    left: 15%;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .app {
+      top: 0;
+      left: 3%;
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .app {
+      top: 0;
+      left: 3%;
+    }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .app {
+      top: 0;
+      left: .5%;
+    }
+}
+
+/* ----------- Galaxy S6, S7 ----------- */
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+    .app {
+      top: 0;
+      left: 1%;
+    }
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    .app {
+      top: 0;
+      left: 1%;
+    }
+}
