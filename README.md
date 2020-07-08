@@ -1,6 +1,7 @@
 # TodoList React Typescript
 
 In this project I wanted to test my lernings on TypeScript by making a classic TodoList.
+
 ---------------------------------------------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
